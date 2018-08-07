@@ -1,0 +1,51 @@
+@import url(base.css);
+.choice{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #eeeeee;
+}
+.choice .img1{
+    display: block;
+    margin:4.78rem auto 0;
+    text-align: center;
+    position: relative;
+}
+.img2{
+    display: block;
+    top: 1.00rem;
+    left: 3.10rem;
+    position: absolute;
+
+}
+.choice p{
+    width:3.17rem;
+    height:0.51rem;
+    top: 2.20rem;
+    left: 2.10rem;
+    position: absolute;
+    font-size: 0.30rem;
+    color: #a3a1a1;
+}
+.img1 .button1{
+    display: block;
+    width: 2.26rem;
+    height:0.70rem;
+    text-align: center;
+    font-size: 0.30rem;
+    border-radius:0.35rem;
+    position: absolute;
+    top: 2.80rem;
+    left:2.50rem;
+    font-family: "苹方";
+    color: #ffffff;
+    border: none;
+    background-image:-webkit-linear-gradient(left,#3add53,#39db58);
+    background-image:-o-linear-gradient(left,#3add53,#39db58);
+    background-image:-moz-linear-gradient(left,#3add53,#39db58);
+    background-image:-ms-linear-gradient(left,#3add53,#39db58);
+    background-image:linear-gradient(left,#3add53,#39db58);
+    box-shadow: 0 0.08rem 0.20rem 0.05rem rgba(51, 221, 83, 0.7);
+}

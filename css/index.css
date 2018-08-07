@@ -1,0 +1,55 @@
+@import url(base.css);
+.face_recognition{
+    position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #fffdfd;
+}
+.face_recognition img{
+	display: block;
+	width: 3.04rem;
+	height: 3.16rem;
+	margin: 1.37rem auto 0;
+}
+.face_recognition h2{
+	  height:0.50rem; 
+      font-size: 0.36rem;
+      text-align: center;
+      margin-top: 0.5rem;
+}
+.button1{
+	display: block;
+	width: 4.45rem;
+    height:0.70rem; 
+    text-align: center;
+    font-size: 0.30rem;
+    border-radius:0.35rem;
+    margin: 4.18rem auto 0.24rem;
+    font-family: "苹方";
+    border: none;
+    background-image:-webkit-linear-gradient(left,#40b6ff,#3fadff);
+    background-image:-o-linear-gradient(left,#40b6ff,#3fadff);
+    background-image:-moz-linear-gradient(left,#40b6ff,#3fadff);
+    background-image:-ms-linear-gradient(left,#40b6ff,#3fadff);
+    background-image:linear-gradient(left,#40b6ff,#3fadff);
+    box-shadow: 0 0.08rem 0.20rem 0.05rem rgba(63, 173, 255, 0.7); 
+}
+.button2{
+	display: block;
+	width: 4.45rem;
+    height:0.70rem; 
+    text-align: center;
+    font-size: 0.30rem;
+    border-radius:0.35rem;
+    margin: 0 auto 0 ;
+    font-family: "苹方";
+    border: none;
+    background-image:-webkit-linear-gradient(left,#3add53,#39db58);
+    background-image:-o-linear-gradient(left,#3add53,#39db58);
+    background-image:-moz-linear-gradient(left,#3add53,#39db58);
+    background-image:-ms-linear-gradient(left,#3add53,#39db58);
+    background-image:linear-gradient(left,#3add53,#39db58);
+    box-shadow: 0 0.08rem 0.20rem 0.05rem rgba(51, 221, 83, 0.7); 
+}

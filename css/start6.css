@@ -1,0 +1,25 @@
+@import url(base.css);
+.big_background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #eeeeee;
+}
+.photo{
+    width:3.55rem;
+    height: 4.45rem;
+    border: 0.05rem solid #b5b6b8;
+    margin: 2.15rem auto 3.00rem;
+}
+.big_background p{
+    display: block;
+    height: 0.80rem;
+    width: 100%;
+    font-size: 0.30rem;
+   text-align: center;
+    line-height: 0.80rem;
+    color: #b2b3b5;
+    margin-bottom:0.60rem;
+}

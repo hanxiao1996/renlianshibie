@@ -1,0 +1,113 @@
+@import url(base.css);
+.Authentication{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #eeeeee;
+}
+.circle1 {
+    width: 2.98rem;
+    height: 2.98rem;
+    border-radius: 50%;
+    background:rgba(220,240,231,0.7);
+    margin: 1.85rem auto 0.40rem;
+    overflow: hidden;
+}
+.circle2{
+    width: 2.58rem;
+    height: 2.58rem;
+    border-radius: 50%;
+    background:rgba(220,240,231,0.5);
+    overflow: hidden;
+    margin:0.2rem auto;
+
+}
+.circle3{
+    width: 2.18rem;
+    height: 2.18rem;
+    border-radius: 50%;
+    background:rgba(220,240,231,0.0);
+    margin:0.2rem auto;
+    overflow: hidden;
+}
+.circle4 {
+    width: 0.67rem;
+    height: 0.67rem;
+    border-radius: 50%;
+    background: #33cc67;
+    margin:0.34rem auto 0.15rem;
+    box-shadow: 0 0.08rem 0.20rem 0.05rem rgba(51, 196, 138, 0.7);
+}
+.circle5{
+    width: 1.24rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background:#33cc67;
+    margin:0 auto;
+    box-shadow: 0 0.08rem 0.20rem 0.05rem rgba(51, 196, 138, 0.7);
+}
+.Authentication p{
+    font-family: "苹方";
+    font-weight: normal;
+    text-align: center;
+}
+.Authentication .p1{
+    font-size: 0.28rem;
+    color: #33cc64;
+    margin-bottom:0.23rem;
+}
+.Authentication .p2{
+    font-size: 0.22rem;
+    color: #cecece;
+}
+.Authentication .input{
+    width:5.30rem;
+    height: 0.60rem;
+    margin: 1.97rem 0 1.61rem 1.12rem;
+    border-bottom: 2px solid #989898;
+    background: #eeeeee;
+}
+.Authentication .input_left{
+    width: 0.20rem;
+    height: 0.10rem;
+    background: #ff6700;
+    margin:0.25rem auto ;
+    float: left;
+}
+.input input{
+    display: block;
+    float: left;
+    width:4.80rem;
+    margin:0.15rem 0 0 0.10rem;
+    border: none;
+    background: #eeeeee;
+}
+.input .no{
+    width: 0.15rem;
+    height: 0.20rem;
+    float: left;
+    font-size: 0.15rem;
+    text-align: center;
+    padding-top: 0.20rem;
+}
+.button1{
+    display: block;
+    width: 4.45rem;
+    height:0.70rem;
+    text-align: center;
+    font-size: 0.30rem;
+    border-radius:0.35rem;
+    margin: 0 auto 0 ;
+    font-family: "苹方";
+    border: none;
+    background-image:-webkit-linear-gradient(left,#40b1ff,#3fafff);
+    background-image:-o-linear-gradient(left,#40b1ff,#3fafff);
+    background-image:-moz-linear-gradient(left,#40b1ff,#3fafff);
+    background-image:-ms-linear-gradient(left,#40b1ff,#3fafff);
+    background-image:linear-gradient(left,#40b1ff,#3fafff);
+    box-shadow: 0 0.08rem 0.20rem 0.05rem rgba(63, 175, 255, 0.7);
+}
+
+
