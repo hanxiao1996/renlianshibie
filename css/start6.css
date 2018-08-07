@@ -23,3 +23,10 @@
     color: #b2b3b5;
     margin-bottom:0.60rem;
 }
+.button1{
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right:10px;
+    color: #ff6700;
+}

@@ -7,46 +7,92 @@
     right: 0;
     background: #eeeeee;
 }
+.Authentication .box{
+    width: 4.0rem;
+    height: 4.0rem;
+    margin: 1.0rem auto 0.40rem;
+    position: relative;
+}
 .circle1 {
     width: 2.98rem;
     height: 2.98rem;
     border-radius: 50%;
-    background:rgba(220,240,231,0.7);
-    margin: 1.85rem auto 0.40rem;
+    margin:auto;
+    background:rgba(193,237,217,0.5);
     overflow: hidden;
+    position: relative;
+    animation: scale1 1.5s 0.1s linear infinite ;
 }
 .circle2{
-    width: 2.58rem;
-    height: 2.58rem;
+    width: 2.28rem;
+    height: 2.28rem;
     border-radius: 50%;
-    background:rgba(220,240,231,0.5);
+    background:rgba(193,237,217,0.8);
     overflow: hidden;
-    margin:0.2rem auto;
+    margin:0.4rem auto;
+    animation: scale2 1.5s 0.1s linear infinite;
 
 }
 .circle3{
-    width: 2.18rem;
-    height: 2.18rem;
+    width: 1.08rem;
+    height: 1.08rem;
     border-radius: 50%;
-    background:rgba(220,240,231,0.0);
-    margin:0.2rem auto;
+    background:rgba(193,237,217,1.0);
+    margin:0.4rem auto;
     overflow: hidden;
+    animation: scale3 1.5s 0.1s linear  infinite;
 }
 .circle4 {
     width: 0.67rem;
     height: 0.67rem;
     border-radius: 50%;
     background: #33cc67;
-    margin:0.34rem auto 0.15rem;
+    position: absolute;
+    top:0.80rem;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 0.08rem 0.20rem 0.05rem rgba(51, 196, 138, 0.7);
+
 }
 .circle5{
     width: 1.24rem;
     height: 0.6rem;
     border-radius: 0.3rem;
     background:#33cc67;
-    margin:0 auto;
+    position: absolute;
+    top:1.6rem;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 0.08rem 0.20rem 0.05rem rgba(51, 196, 138, 0.7);
+
+}
+@keyframes scale1 {
+    0%{
+        transform: scale(0.5);
+    }
+     100%{
+         transform: scale(1);
+     }
+}
+@keyframes scale2 {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+@keyframes scale3 {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
 }
 .Authentication p{
     font-family: "苹方";
